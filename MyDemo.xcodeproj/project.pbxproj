@@ -13,11 +13,10 @@
 		A3BA84AA1F1DA85F00E640BB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A3BA84A91F1DA85F00E640BB /* main.m */; };
 		A3BA84AD1F1DA85F00E640BB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A3BA84AC1F1DA85F00E640BB /* AppDelegate.m */; };
 		A3BA84B01F1DA85F00E640BB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A3BA84AF1F1DA85F00E640BB /* ViewController.m */; };
-		A3BA84B31F1DA85F00E640BB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A3BA84B11F1DA85F00E640BB /* Main.storyboard */; };
 		A3BA84B51F1DA85F00E640BB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A3BA84B41F1DA85F00E640BB /* Assets.xcassets */; };
-		A3BA84B81F1DA85F00E640BB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A3BA84B61F1DA85F00E640BB /* LaunchScreen.storyboard */; };
 		A3BA84C31F1DA85F00E640BB /* MyDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A3BA84C21F1DA85F00E640BB /* MyDemoTests.m */; };
 		A3BA84CE1F1DA85F00E640BB /* MyDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A3BA84CD1F1DA85F00E640BB /* MyDemoUITests.m */; };
+		A3BA84DC1F1DD9AE00E640BB /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A3BA84DB1F1DD9AE00E640BB /* Launch Screen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,9 +48,7 @@
 		A3BA84AC1F1DA85F00E640BB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		A3BA84AE1F1DA85F00E640BB /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		A3BA84AF1F1DA85F00E640BB /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		A3BA84B21F1DA85F00E640BB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A3BA84B41F1DA85F00E640BB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		A3BA84B71F1DA85F00E640BB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A3BA84B91F1DA85F00E640BB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A3BA84BE1F1DA85F00E640BB /* MyDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A3BA84C21F1DA85F00E640BB /* MyDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyDemoTests.m; sourceTree = "<group>"; };
@@ -59,6 +56,7 @@
 		A3BA84C91F1DA85F00E640BB /* MyDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A3BA84CD1F1DA85F00E640BB /* MyDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyDemoUITests.m; sourceTree = "<group>"; };
 		A3BA84CF1F1DA85F00E640BB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A3BA84DB1F1DD9AE00E640BB /* Launch Screen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
 		AB9460103DD0CB7E52C7275D /* Pods-MyDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MyDemo/Pods-MyDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		CADB8B329CA3574264084629 /* Pods-MyDemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyDemoTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MyDemoTests/Pods-MyDemoTests.debug.xcconfig"; sourceTree = "<group>"; };
 		DA05393D9E087E399976D633 /* Pods-MyDemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyDemoTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MyDemoTests/Pods-MyDemoTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -132,9 +130,8 @@
 				A3BA84AC1F1DA85F00E640BB /* AppDelegate.m */,
 				A3BA84AE1F1DA85F00E640BB /* ViewController.h */,
 				A3BA84AF1F1DA85F00E640BB /* ViewController.m */,
-				A3BA84B11F1DA85F00E640BB /* Main.storyboard */,
+				A3BA84DB1F1DD9AE00E640BB /* Launch Screen.storyboard */,
 				A3BA84B41F1DA85F00E640BB /* Assets.xcassets */,
-				A3BA84B61F1DA85F00E640BB /* LaunchScreen.storyboard */,
 				A3BA84B91F1DA85F00E640BB /* Info.plist */,
 				A3BA84A81F1DA85F00E640BB /* Supporting Files */,
 			);
@@ -298,9 +295,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A3BA84B81F1DA85F00E640BB /* LaunchScreen.storyboard in Resources */,
+				A3BA84DC1F1DD9AE00E640BB /* Launch Screen.storyboard in Resources */,
 				A3BA84B51F1DA85F00E640BB /* Assets.xcassets in Resources */,
-				A3BA84B31F1DA85F00E640BB /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -500,25 +496,6 @@
 		};
 /* End PBXTargetDependency section */
 
-/* Begin PBXVariantGroup section */
-		A3BA84B11F1DA85F00E640BB /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				A3BA84B21F1DA85F00E640BB /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		A3BA84B61F1DA85F00E640BB /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				A3BA84B71F1DA85F00E640BB /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
-
 /* Begin XCBuildConfiguration section */
 		A3BA84D01F1DA85F00E640BB /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -711,6 +688,7 @@
 				A3BA84D41F1DA85F00E640BB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A3BA84D51F1DA85F00E640BB /* Build configuration list for PBXNativeTarget "MyDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -719,6 +697,7 @@
 				A3BA84D71F1DA85F00E640BB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A3BA84D81F1DA85F00E640BB /* Build configuration list for PBXNativeTarget "MyDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -727,6 +706,7 @@
 				A3BA84DA1F1DA85F00E640BB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
