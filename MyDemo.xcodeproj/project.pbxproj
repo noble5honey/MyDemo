@@ -26,6 +26,7 @@
 		A3BA84C31F1DA85F00E640BB /* MyDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A3BA84C21F1DA85F00E640BB /* MyDemoTests.m */; };
 		A3BA84CE1F1DA85F00E640BB /* MyDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A3BA84CD1F1DA85F00E640BB /* MyDemoUITests.m */; };
 		A3BA84DC1F1DD9AE00E640BB /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A3BA84DB1F1DD9AE00E640BB /* Launch Screen.storyboard */; };
+		A3C17CD21F3D5A5800E77E38 /* Image.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A3C17CD11F3D5A5800E77E38 /* Image.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -85,6 +86,7 @@
 		A3BA84CD1F1DA85F00E640BB /* MyDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyDemoUITests.m; sourceTree = "<group>"; };
 		A3BA84CF1F1DA85F00E640BB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A3BA84DB1F1DD9AE00E640BB /* Launch Screen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		A3C17CD11F3D5A5800E77E38 /* Image.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Image.xcassets; sourceTree = "<group>"; };
 		AB9460103DD0CB7E52C7275D /* Pods-MyDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MyDemo/Pods-MyDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		CADB8B329CA3574264084629 /* Pods-MyDemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyDemoTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MyDemoTests/Pods-MyDemoTests.debug.xcconfig"; sourceTree = "<group>"; };
 		DA05393D9E087E399976D633 /* Pods-MyDemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyDemoTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MyDemoTests/Pods-MyDemoTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -314,6 +316,7 @@
 		A3BA84A71F1DA85F00E640BB /* MyDemo */ = {
 			isa = PBXGroup;
 			children = (
+				A3C17CCF1F3D59DA00E77E38 /* Resources */,
 				A39C82C91F3C618B008AEE24 /* Custom */,
 				A39C82B91F3C617C008AEE24 /* BIZ */,
 				A3BA84AB1F1DA85F00E640BB /* AppDelegate.h */,
@@ -353,6 +356,14 @@
 				A3BA84CF1F1DA85F00E640BB /* Info.plist */,
 			);
 			path = MyDemoUITests;
+			sourceTree = "<group>";
+		};
+		A3C17CCF1F3D59DA00E77E38 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				A3C17CD11F3D5A5800E77E38 /* Image.xcassets */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 		FCA3200577F962830256130E /* Pods */ = {
@@ -487,6 +498,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A3BA84DC1F1DD9AE00E640BB /* Launch Screen.storyboard in Resources */,
+				A3C17CD21F3D5A5800E77E38 /* Image.xcassets in Resources */,
 				A3BA84B51F1DA85F00E640BB /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

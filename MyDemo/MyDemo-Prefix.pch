@@ -23,4 +23,6 @@
 #import "AddViewController.h"
 #import "DiscoverViewController.h"
 
+#import <Masonry/Masonry.h>
+
 #endif /* MyDemo_Prefix_pch */
